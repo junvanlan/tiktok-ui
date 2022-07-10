@@ -1,10 +1,31 @@
 @import 'normalize.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 :root {
+    // For header
+    --header-height: 60px;
+    --header-width: 1150px;
+    --search-width: 361px;
+    --search-height: 46px;
+    --search-btn-width: 52px;
+    // header-color
     --primary: #fe2c55;
+    --primary-background: #fff;
+    --search-background: rgba(22, 24, 35, 0.06);
+    --bulkhead-search-color: rgb(22 24 35 / 12%);
+    --button-search-hover: rgba(22, 24, 35, 0.03);
+    --button-search-color: rgba(22, 24, 35, 0.34);
+    --search-focus-background: rgba(22, 24, 35, 0.06);
+    --search-button-notempty-color: rgba(22, 24, 35, 0.75);
+    --search-button-active-color: rgba(22, 24, 35, 0.06);
+    --upload-border-color: rgba(22, 24, 35, 0.12);
+    --upload-text-color: #161823;
+    --upload-hover-color: rgba(22, 24, 35, 0.03);
+    --login-btn-color: rgba(254, 44, 85, 1);
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
